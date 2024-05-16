@@ -4,9 +4,10 @@ body, html {
     height: 100%;
     font-family: Arial, sans-serif;
 }
+
 .welcome-section {
-    background: url('Final%20Build/background.jpg') no-repeat center center/cover;
-    height: 100%;
+    background: url('Final%20Build/background-image.jpg') no-repeat center center/cover;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -14,31 +15,46 @@ body, html {
     color: white;
     text-align: center;
 }
+
 .welcome-section h1 {
-    font-size: 3em;
+    font-size: 2.5em;
     margin: 0.5em 0;
 }
+
 .welcome-section button {
     background-color: #ff6347;
     border: none;
     padding: 1em 2em;
     color: white;
-    font-size: 1.2em;
+    font-size: 1em;
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
+
 .welcome-section button:hover {
     background-color: #e55347;
 }
+
 .content-section {
     display: none;
     padding: 2em;
 }
+
+.content-section h2 {
+    font-size: 1.5em;
+    margin-top: 1em;
+}
+
+.content-section p {
+    font-size: 1em;
+}
+
 .grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 1em;
 }
+
 .grid img {
     width: 100%;
     height: auto;
